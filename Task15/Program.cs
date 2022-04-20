@@ -1,6 +1,6 @@
 ﻿// Напишите программу, которая получает число и выводит третью и последнюю цифру числа.
 
-Console.Write($"Введите число: ");
+Console.WriteLine($"Введите число: ");
 string inputN = Console.ReadLine();
 int N = int.Parse (inputN);
 if (N > 100)
